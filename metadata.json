@@ -1,0 +1,6 @@
+{
+  "name": "원판 돌리기 영어 학습 룰렛",
+  "description": "클릭하면 회전하는 인터랙티브 원판과 그림 단어 맞추기 영어 학습 웹앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
