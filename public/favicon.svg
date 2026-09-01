@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#f43f5e" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Wheel Ring with soft border -->
+  <circle cx="32" cy="32" r="30" fill="#fdf2f8" stroke="#f43f5e" stroke-width="3" filter="url(#shadow)" />
+
+  <!-- 8 Colorful Slices -->
+  <!-- 1: Coral Red -->
+  <path d="M32 32 L32 4 A28 28 0 0 1 51.8 12.2 Z" fill="#fb7185" />
+  <!-- 2: Orange -->
+  <path d="M32 32 L51.8 12.2 A28 28 0 0 1 60 32 Z" fill="#fb923c" />
+  <!-- 3: Yellow -->
+  <path d="M32 32 L60 32 A28 28 0 0 1 51.8 51.8 Z" fill="#facc15" />
+  <!-- 4: Green -->
+  <path d="M32 32 L51.8 51.8 A28 28 0 0 1 32 60 Z" fill="#4ade80" />
+  <!-- 5: Sky Blue -->
+  <path d="M32 32 L32 60 A28 28 0 0 1 12.2 51.8 Z" fill="#38bdf8" />
+  <!-- 6: Indigo / Blue -->
+  <path d="M32 32 L12.2 51.8 A28 28 0 0 1 4 32 Z" fill="#818cf8" />
+  <!-- 7: Purple -->
+  <path d="M32 32 L4 32 A28 28 0 0 1 12.2 12.2 Z" fill="#c084fc" />
+  <!-- 8: Pink -->
+  <path d="M32 32 L12.2 12.2 A28 28 0 0 1 32 4 Z" fill="#f472b6" />
+
+  <!-- Inner Golden Ring -->
+  <circle cx="32" cy="32" r="14" fill="#ffffff" stroke="#f59e0b" stroke-width="2.5" />
+  <circle cx="32" cy="32" r="11" fill="#fef08a" />
+
+  <!-- Cute Smiling Chibi Face in center -->
+  <ellipse cx="28" cy="30" rx="1.5" ry="2" fill="#78350f" />
+  <ellipse cx="36" cy="30" rx="1.5" ry="2" fill="#78350f" />
+  <!-- Rosy cheeks -->
+  <circle cx="26" cy="33.5" r="1.5" fill="#f43f5e" opacity="0.7" />
+  <circle cx="38" cy="33.5" r="1.5" fill="#f43f5e" opacity="0.7" />
+  <!-- Cute smile -->
+  <path d="M30 33 Q32 36 34 33" stroke="#78350f" stroke-width="1.2" stroke-linecap="round" fill="none" />
+
+  <!-- Cute Pointer at Top -->
+  <polygon points="32,2 26,9 38,9" fill="#ef4444" stroke="#991b1b" stroke-width="1" />
+  <circle cx="32" cy="6" r="1.5" fill="#ffffff" />
+
+  <!-- Shiny Sparkles -->
+  <path d="M50 14 Q52 17 55 18 Q52 19 50 22 Q48 19 45 18 Q48 17 50 14 Z" fill="#ffffff" opacity="0.9" />
+  <circle cx="15" cy="18" r="1.5" fill="#ffffff" opacity="0.8" />
+  <circle cx="48" cy="48" r="1.5" fill="#ffffff" opacity="0.8" />
+</svg>
